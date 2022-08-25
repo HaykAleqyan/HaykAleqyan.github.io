@@ -1,0 +1,114 @@
+  /* /* div{
+     width: 500px;
+     height: 400px;
+     border: 1px solid chocolate;
+      /*background-color: darkgoldenrod; */
+     /* animation-name: hayk;
+      animation-duration: 3s;       /*animaciayi jamanak*/
+     /* animation-iteration-count: 1;     /*animaciayi krknvelu qanak@ kam tverov kam infinite an@ndhat ashxati*/
+     /* animation-fill-mode: forwards;/*   /*vortex prcav animacian mnum e nuyn texum */ 
+  /* } */
+/*       
+      @keyframes hayk{
+          0%{margin-left: 0%;margin-top: 0%;}
+          25%{margin-left: 0%; margin: 200px;}
+          50%{margin-right: 0%; margin-right: 400px;}
+          100%{margin-left: 0%; margin-top: 0%;}
+     }
+     .in{
+          width: 50px;
+          height: 50px;
+          border-radius: 100px ;background-color: red;
+          
+     }
+     
+     .in1{
+          width: 50px;
+          height: 50px;
+          border-radius: 100px;background-color: blue;
+     }
+     .in2{
+          width: 50px;
+          height: 50px;
+          border-radius: 100px;background-color: orange;
+     }
+
+
+ @keyframes hayk{
+     0%{margin-left: 0%;margin-top: 400px; background-color: red;} 
+     40%{margin-left: 40%;margin-top: 0;}
+     50%{margin-top: 300px;
+     margin-left: 25%; background-color: blue;}
+     75%{margin-top: 300px;margin-left: 0; background-color: orange;}
+     100%{margin-top: 0;margin-left: 0;}
+}   */ 
+
+  /* @keyframes hayk{
+     0%{margin-left: 0%;margin-top: 0; background-color: red;} 
+     25%{margin-left: 25%;margin-top: 0;}
+     50%{margin-top: 300px;
+     margin-left: 25%; background-color: blue;}
+     75%{margin-top: 300px;margin-left: 0; background-color: orange;}
+     100%{margin-top: 0;margin-left: 0;}
+}    */
+/* h2{
+     animation-name: h2;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: 1;
+
+     
+} */
+/* @keyframes h2{
+     0%{margin-left: 0%;
+     font-size: 2px;}
+     100%{margin-left: 40%;font-size: 50px;}
+} */
+
+
+
+.anime{
+     width: 200px;
+     height: 200px;
+animation-name: my;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-play-state: running;
+animation-delay: 1s;
+text-align: center;
+background-color: chocolate;
+
+
+}
+@keyframes my {
+     0%{
+          margin-left: 0px; 
+          margin-top: 0px; 
+          background-color: red;
+     }
+     25%{ 
+          margin-left: 500px;
+          margin-top: 0px;
+          background-color: blue;
+          }
+     50%{
+          margin-left: 500px;
+          margin-top: 500px;
+          background-color: orange;
+          border-radius: 100px;
+          }
+     75%{
+          margin-left: 0px;
+          margin-top: 500px;
+          background-color: red; 
+          border-radius: 50px;
+     }
+     100%{
+          margin-left:0px;
+          margin-top: 0px; 
+          background-color:blue; 
+          border-radius: 0px;
+     }
+}
